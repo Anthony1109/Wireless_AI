@@ -1,0 +1,18 @@
+# 忽略虛擬環境
+.venv/
+venv/
+
+# 忽略巨大的資料集
+*.mat
+
+# 忽略模型訓練存檔
+Models/
+*.ckpt
+*.meta
+*.index
+
+# 忽略 Python 暫存檔
+__pycache__/
+
+# 忽略全部的生成圖片
+ChannelGAN_Rayleigh_images/
