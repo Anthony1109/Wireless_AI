@@ -1,0 +1,14 @@
+# 忽略虛擬環境
+.venv/
+venv/
+
+# 忽略巨大的資料集
+*.mat
+*.npy
+
+# 忽略模型訓練存檔
+dnn_ce/
+*.npz
+
+# 忽略 Python 暫存檔
+__pycache__/
