@@ -38,5 +38,5 @@ plt.grid(True, which="both", ls="--", alpha=0.5)
 # 顯示圖例
 plt.legend(fontsize=12)
 
-# 顯示圖片 (如果你想要存檔，可以把 plt.show() 換成 plt.savefig('MSE_result.png', dpi=300))
-plt.show()
+# 顯示圖片 
+plt.savefig('result.png', dpi=300)
