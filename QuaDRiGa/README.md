@@ -60,21 +60,14 @@ Wireless_AI/QuaDRiGa/
 ```
 
 ## How to Run
-### Step 1: Prepare the Dataset
-Ensure the pre-generated channel data files (channel_train.npy and channel_test.npy) are located inside the `tools/` directory.
-
-### Step 2: Train the DNN Models (Optional)
-Pre-trained weights (.npz files) are already provided in the `dnn_ce/` directory. However, if you wish to train the models from scratch, you can train it yourself.
-
-### Step 3: Run main code
-This will process the SNR range (5dB to 40dB) and output the results as .mat files (e.g., MSE_dnn_4QAM_CP_FREE.mat) in the root directory.
 ```
 python main.py
 ```
-### Step 4: Visualize the Results
-Once the .mat files are generated, use the plotting script to visualize the performance comparison between the traditional MMSE and the proposed DNN approach.
-```
-python plot_results.py
-```
+### Observing Terminal Output:
+After launching the script, you will see terminal outputs similar to the following:
+* succeeded in loading checkpoint... (If historical checkpoints exist, it will automatically load them and resume)
+* No checkpoint found, will start training from scratch. (If running for the very first time)
+
+Subsequently, it will print Start Plotting at regular intervals.
 
 
