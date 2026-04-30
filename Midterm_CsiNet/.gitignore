@@ -1,0 +1,4 @@
+# 忽略資料與模型目錄
+data/
+result/
+saved_model/
